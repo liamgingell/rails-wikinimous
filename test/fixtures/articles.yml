@@ -2,8 +2,16 @@
 
 one:
   title: MyString
+<<<<<<< HEAD
   content: MyText
 
 two:
   title: MyString
   content: MyText
+=======
+  body: MyText
+
+two:
+  title: MyString
+  body: MyText
+>>>>>>> 9643858c4ced64ed9fdc55e359f610341de0f7ba
