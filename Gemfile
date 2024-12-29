@@ -2,11 +2,6 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
-<<<<<<< HEAD
-=======
-gem 'faker'
-
->>>>>>> 9643858c4ced64ed9fdc55e359f610341de0f7ba
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.5", ">= 7.1.5.1"
 
@@ -45,6 +40,10 @@ gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+gem 'spring'
+
+gem 'spring-watcher-listen', '~> 2.0.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
